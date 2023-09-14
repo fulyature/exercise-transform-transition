@@ -1,0 +1,16 @@
+.container {
+  position: relative;
+
+  animation: example;
+  animation-duration: 2s;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  0% {
+    left: 0px;
+  }
+  25% {
+    left: 400px;
+  }
+}
